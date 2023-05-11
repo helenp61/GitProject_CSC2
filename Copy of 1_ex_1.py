@@ -8,7 +8,7 @@ label = Label(root, text="Hello Python")  # what you see
 # on screen
 
 # font colour, config is for properties
-label.config(text="Hello Python",borderwidth=1,relief="solid",font="Times 32, fg="red")
+label.config(text="Hello Python",borderwidth=1,relief="solid",font="Times 32")
 label.config(bg="yellow")  # background colour
 #label.config(font='Times 20')
 
