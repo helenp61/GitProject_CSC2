@@ -9,7 +9,7 @@ heading = tk.Label(text="Image Button Demo", font=("Roboto", 28), pady=15)
 heading.pack()
 
 # import the image using PhotoImage function
-sunset3_jpg = tk.PhotoImage(file='sunset3.jpg')
+sunset3_png = tk.PhotoImage(file='sunset3.png')
 
 # button function
 
@@ -19,7 +19,7 @@ def play():
 
 
 # create buttons and pass the image in
-button_r = tk.Button(root, image=sunset3_jpg, command=play)
+button_r = tk.Button(root, image=sunset3_png, command=play)
 button_r.pack()
 
 # message label
